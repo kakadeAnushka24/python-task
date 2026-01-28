@@ -178,7 +178,7 @@ print(len(prices))
 print(prices[0],prices[1])
 print(prices[1:4])
 numlist = list(prices)
-numlist.append(prices)
+numlist.append(1500)
 prices = tuple(numlist)
 print(prices)
 
