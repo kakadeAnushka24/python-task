@@ -145,3 +145,30 @@ data = (("name","Anuuu"),("age",22))
 data = dict(data)
 print(data["name"])
 print(data["age"])
+
+# Q31. Write a program that performs the following operations on a list:
+# # * append
+# * insert
+# * remove
+# * sort
+# * reverse
+
+list=[3,7,9,0]
+list.append(1)
+print(list)
+
+list=[3,7,9,0]
+list.insert(12,10)
+print(list)
+
+list=[3,7,9,0]
+list.remove(7)
+print(list)
+
+list=[3,7,9,0]
+list.sort()
+print(list)
+
+list=[3,7,9,0]
+list.reverse()
+print(list)
