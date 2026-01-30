@@ -172,3 +172,16 @@ print(list)
 list=[3,7,9,0]
 list.reverse()
 print(list)
+
+
+# Q.31 All operators in one program
+p = int(input("Enter number 1: "))
+q = int(input("Enter number 2: "))
+
+p += 2
+
+print("Addition:", p + q)
+print("Comparison:", p > q)
+print("Logical AND:", p > 10 and q < 20)
+print("Multiplication:", p * q)
+print("Difference:", p - q)
